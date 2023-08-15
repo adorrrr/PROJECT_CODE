@@ -11,7 +11,7 @@
 NewPing sonar(TRIGGER_Pin, ECHO_Pin, MAX_DISTANCE);
 
 
-const int irPins[5] = {A1,A2,A3,A4,A5};
+const int irPins[5] = {A0,A1,A2,A3,A4};
 
 void wheel(int lm, int rm);
 int s[5] = {0,0,0,0,0}; 
